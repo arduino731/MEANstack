@@ -1,0 +1,21 @@
+(3/5) https://www.youtube.com/watch?v=oVIeMfvgTz8
+
+"$show dbs" will show you list of dbs
+"$use contactlist" will automallicy create new db
+
+(5/5)RESTful API Tutorial, DELETE and PUT Data - MEAN Stack RESTful API Tutorial https://www.youtube.com/watch?v=06_SIzYXgqQ
+
+"$db.contactlist.findAndModify " (update) 
+"$db.contactlist.find()" will show all the db list
+"$db.contactlist.find().pretty()" will show you tidy db list.
+"$db.contactlist.remove ({name: 'Sam'})" will destory db list
+"$db.contactlist.insert ({"name": 'Sam', "email": 'test@test1.com', "number": '(999)999-9999'})"
+or if want to more than 1 in the contactlist adding by the array
+"$db.contactlist.insert (   [    {"name": 'Sam', "email": 'test@test1.com', "number": '(999)999-9999'}), {"name": 'Sam2', "email": 'test@test2.com', "number": '(111)111-1111'}   ]    ) "
+
+
+
+npm install express
+npm install body-parser
+npm install mongojs
+npm install node 
